@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import BasicTable from '../components/BasicTable';
 
 export default function Home() {
   return (
@@ -41,8 +40,29 @@ export default function Home() {
         <p className="description">
           <u>News</u> 
         </p>
-        
+        <table width={1000}>
+          <tr>
+            <th><h3>Class</h3></th>
+            <th><h3>Content</h3></th>
+            <th><h3>Time</h3></th>
+          </tr>
+          <br></br>
+          <tr>
+            <th>Award</th>
+            <th>Unhackable Team win a Honorable Mentions Award in that Hackathon 🎉🎉🎉 </th>
+            <th>6/5/2022</th>
+          </tr>
+          <br></br>
+          <tr>
+            <th>Hackathon</th>
+            <th>Unhackable Team Joined PolyHack2022 Hackathon </th>
+            <th>5/21/2022</th>
+          </tr>
+        </table>
 
+        <br></br>
+        <br></br>
+        <br></br>
 
         <p className="description">
           <u>Team Members </u>
